@@ -220,3 +220,11 @@ h2.adress{
 	color: yellow;
 	background-color: black;
 }
+/*max, si l'ecran est inf ou égal alors {...} */
+@media (max-width: 800px) {
+	flex-direction: column;
+	height: auto;
+}
+.item {
+	height: 50px;
+}
